@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-store-version-check": ["../src/index"],
+      "expo-store-version-check/*": ["../src/*"]
+    }
+  }
+}
